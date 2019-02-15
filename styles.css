@@ -1,0 +1,93 @@
+.nippers-logo {
+    margin-right: 20px;
+}
+
+.navbar {
+    background-color: #775343;
+}
+
+.shop-front {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.shop-prices {
+    padding-top: 2rem;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.price-tier {
+    text-align: left;
+}
+
+.cards {
+    margin-bottom: 2rem;
+}
+
+.shop-hours {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.shop-hours-table {
+    text-align: right;
+    width: 100%;
+}
+
+.service-cost {
+    text-align: right;
+}
+
+.shop-price-table {
+    width: 85%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #1985c8;
+    color: #fff;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+
+  #cta {
+    text-align: center;
+    padding-top: 40px;
+    background-color: #fff;
+    color: black;
+  }
+
+  .visit {
+      margin-bottom: 2rem;
+  }
+
+  .google-map {
+      margin-bottom: 50px;
+  }
+
+  /* Footer */
+
+#footer {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .footer-par {
+    padding-top: 50px;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
