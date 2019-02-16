@@ -3,13 +3,24 @@
 }
 
 .navbar {
-    background-color: #775343;
+    background-color: #1985c8;
 }
 
+.table-text {
+  font-family: 'Courgette';
+}
 
+#nav-link-text {
+  color: #fff;
+  font-family: 'Courgette';
+}
+
+#nav-link-text:hover {
+  color: rgb(214, 193, 96);
+}
 
 #grad {
-  background-image: radial-gradient(brown 5%, rgb(177, 66, 66) 15%, brown 60%);
+  background-image: radial-gradient(brown 5%, rgb(182, 140, 140) 15%, brown 60%);
 }
 
 .shop-front {
@@ -31,12 +42,13 @@
 
 .cards {
     margin-bottom: 2rem;
+    width: 70%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.shop-hours {
-    padding-top: 2rem;
+.shop-card-header {
     text-align: center;
+    font-family: 'Courgette';
 }
 
 .shop-hours-table {
@@ -46,10 +58,15 @@
 
 .service-cost {
     text-align: right;
+    
 }
 
 .shop-price-table {
-    width: 85%;
+    width: 100%;
+}
+
+#card-deck {
+  margin: 3rem;
 }
 
 /* Testimonials */
@@ -62,9 +79,13 @@
   
   .testimonial-image {
     width: 10%;
-
     border-radius: 100%;
     margin: 20px;
+  }
+
+  .resize {
+    width: 70px;
+    height:auto;
   }
   
   .carousel-item {
@@ -101,7 +122,6 @@
   .social-icon {
     margin: 20px 10px;
     transition: transform .2s;
-
   }
 
   .social-icon:hover {
@@ -110,4 +130,8 @@
 
   .instagram-link {
     padding-right: 1rem;
+  }
+
+  .facebook-link {
+    padding-left: 1rem;
   }
