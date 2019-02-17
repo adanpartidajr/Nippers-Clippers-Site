@@ -3,7 +3,7 @@
 }
 
 .navbar {
-    background-color: #1985c8;
+    background-color: #dfd6cd;
 }
 
 .table-text {
@@ -19,15 +19,18 @@
   color: rgb(214, 193, 96);
 }
 
-#grad {
-  background-image: radial-gradient(brown 5%, rgb(182, 140, 140) 15%, brown 60%);
+#grad1 {
+  background-image: linear-gradient(to right, white ,#838383);
+}
+
+#grad2 {
+  background-image: linear-gradient(to left, white ,#838383);
 }
 
 .shop-front {
     width: 100%;
     height: auto;
     padding-bottom: 2rem;
-    box-shadow: 
 }
 
 .shop-prices {
@@ -69,11 +72,19 @@
   margin: 3rem;
 }
 
+#card-body {
+  transition: transform .2s;
+}
+
+#card-body:hover {
+  transform: scale(1.25);
+}
+
 /* Testimonials */
 
 #testimonials {
     text-align: center;
-    background-color: #1985c8;
+    background-color: #000104;
     color: #fff;
   }
   
