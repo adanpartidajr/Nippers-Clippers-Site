@@ -4,6 +4,8 @@
 
 .navbar {
     background-color: #dfd6cd;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .table-text {
@@ -45,18 +47,6 @@
 .shop-front {
     width: 100%; 
     padding-bottom: 2rem;
-}
-
-.right-barber {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-}
-
-.left-barber {
-  width: 20%;
-  float: left;
-  margin-right: 30px;
 }
 
 hr.style-eight {
