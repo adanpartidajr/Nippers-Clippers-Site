@@ -21,8 +21,13 @@
 
 .header-text {
   font-family: 'Courgette';
+  color: #f6dea0;
   text-align: center;
   margin: 2rem auto;
+}
+
+.header-box {
+  background-color: #2f1e17;
 }
 
 #nav-link-text:hover {
@@ -30,11 +35,11 @@
 }
 
 #grad1 {
-  background-image: linear-gradient(to right, white ,#838383);
+  background-image: linear-gradient(to right, white ,#dfd6cd);
 }
 
 #grad2 {
-  background-image: linear-gradient(to left, white ,#838383);
+  background-image: linear-gradient(to left, white ,#dfd6cd);
 }
 
 .shop-front {
