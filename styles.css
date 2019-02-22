@@ -3,9 +3,9 @@
 }
 
 .navbar {
-    background-color: #dfd6cd;
-    padding-top: 1rem;
+    background-color: #5b2e35;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .table-text {
@@ -19,17 +19,14 @@
 #nav-link-text {
   color: #fff;
   font-family: 'Courgette';
+  font-size: 1.5rem;
+  
 }
 
 .header-text {
   font-family: 'Courgette';
-  color: #f6dea0;
   text-align: center;
   margin: 2rem auto;
-}
-
-.header-box {
-  background-color: #2f1e17;
 }
 
 #nav-link-text:hover {
@@ -37,16 +34,28 @@
 }
 
 #grad1 {
-  background-image: linear-gradient(to right, white ,#dfd6cd);
+  background-image: linear-gradient(to right, white ,#838383);
 }
 
 #grad2 {
-  background-image: linear-gradient(to left, white ,#dfd6cd);
+  background-image: linear-gradient(to left, white ,#838383);
 }
 
 .shop-front {
-    width: 100%; 
-    padding-bottom: 2rem;
+    width: 100%;
+    /* padding-bottom: 2rem; */
+}
+
+.right-barber {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.left-barber {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
 }
 
 hr.style-eight {
@@ -56,7 +65,7 @@ hr.style-eight {
   border-top: medium double #333;
   color: #333;
   text-align: center;
- 
+
   width: 80%;
 }
 hr.style-eight:after {
@@ -105,7 +114,7 @@ hr.style-eight:after {
 
 .service-cost {
     text-align: right;
-    
+
 }
 
 .shop-price-table {
@@ -120,10 +129,10 @@ hr.style-eight:after {
 
 #testimonials {
     text-align: center;
-    background-color: #000104;
+    background-color: #5b2e35;
     color: #fff;
   }
-  
+
   .testimonial-image {
     width: 10%;
     border-radius: 100%;
@@ -134,7 +143,7 @@ hr.style-eight:after {
     width: 70px;
     height:auto;
   }
-  
+
   .carousel-item {
     padding: 7% 15%;
   }
@@ -162,11 +171,11 @@ hr.style-eight:after {
     text-align: center;
     padding-top: 50px;
   }
-  
+
   .footer-par {
     padding-top: 50px;
   }
-  
+
   .social-icon {
     margin: 20px 10px;
     transition: transform .2s;
@@ -182,4 +191,76 @@ hr.style-eight:after {
 
   .facebook-link {
     padding-left: 1rem;
+  }
+
+
+  /* Events Page */
+
+  .beginning-photo{
+    width: 100%;
+
+
+  }
+
+  .textOverImage{
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    color: #f3cf7a;
+    font-family: 'Courgette';
+    font-size: 100px;
+
+
+  }
+
+  /* Event section */
+  #event-section{
+    background-color: #c5c5c5;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+  #events {
+    text-align: center;
+    background-color: #5b2e35;
+    color: #fff;
+    padding-top: 3rem;
+  }
+  .eventHeader {
+    font-size: 4rem;
+    font-family: 'Courgette';
+
+  }
+
+  .event-section{
+    margin: 4rem;
+
+  }
+
+  .event-pic{
+    height: 45rem;
+    width: auto;
+
+
+  }
+  .eventDescription{
+    padding-top:1rem;
+  }
+
+  .event-card{
+    text-align: center;
+    background-color: rgb(214, 193, 96);
+    /* margin: .5% 0 0 .5%; */
+  }
+  /* greeting */
+  #greeting{
+    text-align: center;
+    font-family: 'Courgette';
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  #greeting h2{
+    font-size: 2.5rem;
+  }
+  #greeting p{
+    font-size: 20px;
   }
