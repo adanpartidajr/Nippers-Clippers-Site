@@ -1,266 +1,145 @@
-.nippers-logo {
-    margin-right: 20px;
+/*Navbar*/
+
+/*Jumbotron*/
+
+.jumbotron-txt {
+	text-align: center;
 }
 
-.navbar {
-    background-color: #5b2e35;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+/*Carousel*/
+
+#carousel {
+	text-align: center;
+	background: linear-gradient(to top right, #6d3580 0%, #de4383 100%);
+	color: #fff;
 }
 
-.table-text {
-  font-family: 'Courgette';
+.carousel-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
 }
 
-.barber-name {
-  font-family: 'Courgette';
+.carousel-item {
+	padding: 7% 15%;
 }
 
-#nav-link-text {
-  color: #fff;
-  font-family: 'Courgette';
-  font-size: 1.5rem;
-  
+
+/* Features */
+
+#features {
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
 }
 
-.header-text {
-  font-family: 'Courgette';
-  text-align: center;
-  margin: 2rem auto;
+.feature-box {
+	text-align: center;
+	padding: 5%;
 }
 
-#nav-link-text:hover {
-  color: rgb(214, 193, 96);
+.fa-raspberry-pi {
+	color: #de4383;
+	margin-bottom: 1rem;
+	size: 3rem;
 }
 
-#grad1 {
-  background-image: linear-gradient(to right, white ,#838383);
+.fa-raspberry-pi:hover {
+	color: #6d3580;
 }
 
-#grad2 {
-  background-image: linear-gradient(to left, white ,#838383);
+.fa-python {
+	color: #de4383;
+	margin-bottom: 1rem;
 }
 
-.shop-front {
-    width: 100%;
-    /* padding-bottom: 2rem; */
+.fa-python:hover {
+	color: #6d3580;
 }
 
-.right-barber {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
+.fa-file-code {
+	color: #de4383;
+	margin-bottom: 1rem;
 }
 
-.left-barber {
-  width: 20%;
-  float: left;
-  margin-right: 30px;
+.fa-file-code:hover {
+	color: #6d3580;
 }
 
-hr.style-eight {
-  overflow: visible; /* For IE */
-  padding: 0;
-  border: none;
-  border-top: medium double #333;
-  color: #333;
-  text-align: center;
-
-  width: 80%;
-}
-hr.style-eight:after {
-  content: "§";
-  display: inline-block;
-  position: relative;
-  top: -0.7em;
-  font-size: 1.5em;
-  padding: 0 0.25em;
-  background: white;
-  width: 10%;
+.fa-drafting-compass {
+	color: #de4383;
+	margin-bottom: 1rem;
+	size: 3rem;
 }
 
-.skill-row {
-  width: 80%;
-  text-align: left;
-  margin: 100px auto 100px auto;
-  line-height: 2;
+.fa-drafting-compass:hover {
+	color: #6d3580;
 }
 
-.shop-prices {
-    padding-top: 2rem;
-    margin-bottom: 26px;
-    text-align: center;
+.fa-tools {
+	color: #de4383;
+	margin-bottom: 1rem;
+	size: 3rem;
 }
 
-.price-tier {
-    text-align: left;
+.fa-tools:hover {
+	color: #6d3580;
 }
+
+/*Card Deck*/
+
+#cardstyle {
+	width: 80%;
+}
+
+.card-group {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+/*Footer Area*/
+
+.linkedin-link {
+	margin-right: 10px;
+}
+
+.contact-btn {
+	margin-bottom: 1rem;
+	transition: transform .8s;
+}
+
+.contact-btn:hover {
+	transform: rotateX(360deg);
+}
+
+.contact-me {
+	text-align: center;
+}
+
+.bottom-container {
+	color: #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 100%;
+	text-align: center;
+	background-color: #6d3580;
+	/* For browsers that do not support gradients */
+	background-image: linear-gradient(#6d3580, #de4383);
+}
+
+
+
+
+
+/*Python.html*/
+/*Card Deck*/
 
 .cards {
     margin-bottom: 2rem;
     width: 70%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.shop-card-header {
-    text-align: center;
-    font-family: 'Courgette';
-}
-
-.shop-hours-table {
-    text-align: right;
-    width: 100%;
-}
-
-.service-cost {
-    text-align: right;
-
-}
-
-.shop-price-table {
-    width: 100%;
-}
-
 #card-deck {
   margin: 3rem;
 }
-
-/* Testimonials */
-
-#testimonials {
-    text-align: center;
-    background-color: #5b2e35;
-    color: #fff;
-  }
-
-  .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-  }
-
-  .resize {
-    width: 70px;
-    height:auto;
-  }
-
-  .carousel-item {
-    padding: 7% 15%;
-  }
-
-  #cta {
-    text-align: center;
-    padding-top: 40px;
-    background-color: #fff;
-    color: black;
-  }
-
-  .visit {
-    font-family: 'Courgette';
-      margin-bottom: 2rem;
-  }
-
-  .google-map {
-      margin-bottom: 50px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  /* Footer */
-
-#footer {
-    text-align: center;
-    padding-top: 50px;
-  }
-
-  .footer-par {
-    padding-top: 50px;
-  }
-
-  .social-icon {
-    margin: 20px 10px;
-    transition: transform .2s;
-  }
-
-  .social-icon:hover {
-    transform: scale(1.25);
-  }
-
-  .instagram-link {
-    padding-right: 1rem;
-  }
-
-  .facebook-link {
-    padding-left: 1rem;
-  }
-
-
-  /* Events Page */
-
-  .beginning-photo{
-    width: 100%;
-
-
-  }
-
-  .textOverImage{
-    position: absolute;
-    top: 33%;
-    left: 25%;
-    color: #f3cf7a;
-    font-family: 'Courgette';
-    font-size: 100px;
-
-
-  }
-
-  /* Event section */
-  #event-section{
-    background-color: #c5c5c5;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-  }
-  #events {
-    text-align: center;
-    background-color: #5b2e35;
-    color: #fff;
-    padding-top: 3rem;
-  }
-  .eventHeader {
-    font-size: 4rem;
-    font-family: 'Courgette';
-
-  }
-
-  .event-section{
-    margin: 4rem;
-
-  }
-
-  .event-pic{
-    height: 45rem;
-    width: auto;
-
-
-  }
-  .eventDescription{
-    padding-top:1rem;
-  }
-
-  .event-card{
-    text-align: center;
-    background-color: rgb(214, 193, 96);
-    /* margin: .5% 0 0 .5%; */
-  }
-  /* greeting */
-  #greeting{
-    text-align: center;
-    font-family: 'Courgette';
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-  }
-  #greeting h2{
-    font-size: 2.5rem;
-  }
-  #greeting p{
-    font-size: 20px;
-  }
