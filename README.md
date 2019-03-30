@@ -1,1 +1,2 @@
-# Personal-Site-2019
+# Nippers-Clippers-Site
+Website for Nippers Clippers Barbershop (1st real website)
